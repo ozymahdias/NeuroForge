@@ -13,6 +13,12 @@ from .idea_reality_mcp import (
     MockIdeaRealityValidator,
     DiscoveryMCPAdapter
 )
+from .validation_engine import (
+    IdeaRealityValidator as IdeaRealityValidationEngine,
+    ValidationDecision,
+    ValidationScores,
+    ValidationReport
+)
 
 __all__ = [
     "OpenQuestion",
@@ -25,4 +31,8 @@ __all__ = [
     "IdeaRealityValidator",
     "MockIdeaRealityValidator",
     "DiscoveryMCPAdapter",
+    "IdeaRealityValidationEngine",
+    "ValidationDecision",
+    "ValidationScores",
+    "ValidationReport",
 ]
