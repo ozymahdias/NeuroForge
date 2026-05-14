@@ -1,1 +1,3 @@
-# State system - FSM and project state management
+from .state_manager import StateManager
+
+__all__ = ["StateManager"]
