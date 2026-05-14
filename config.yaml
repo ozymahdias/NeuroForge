@@ -1,0 +1,17 @@
+---
+# NeuroForge OS Configuration
+
+execution:
+  mode: sequential
+  max_retries: 3
+
+models:
+  primary: ollama
+  fallback: gpt
+
+quality_gates:
+  mutation_threshold: 0.85
+  security_severity_threshold: high
+
+logging:
+  level: info
